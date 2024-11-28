@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
-import folium
+try:
+    import folium
+    from streamlit_folium import folium_static
+except ImportError:
+    st.error("Les bibliothèques nécessaires ne sont pas correctement installées. Vérifiez le fichier requirements.txt.")
 from streamlit_folium import folium_static
 import plotly.express as px
 
