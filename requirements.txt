@@ -1,6 +1,5 @@
+streamlit
 pandas
-streamlit
-scikit-learn
-streamlit
 folium
+streamlit-folium
 plotly
